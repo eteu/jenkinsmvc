@@ -10,7 +10,7 @@ class RootControllerTest {
     @Test
     void index() {
         // arrange
-        String expected = "inde";
+        String expected = "index";
         // act
         String result = rootController.index();
         // assert
